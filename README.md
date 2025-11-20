@@ -10,8 +10,6 @@ Website
 
 Skills
 	•	Front-End Development: HTML, CSS, JavaScript
-	•	Responsive Web Design
-	•	Teaching and Mentoring Experience
 
 Contact
 	•	Email: mohammadifatima751@gmail.com
