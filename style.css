@@ -38,7 +38,7 @@ z-index: 100;
 transition: .3s;
 }
 .header.sticky {
-   background: var(--second-bg-color);
+   background-color: #112e42;
 }
 
 .logo {
@@ -251,7 +251,7 @@ align-items: center;
 
 .about-img img{
 width: 90%;
-border-radius: 50%;
+border-radius: 90%;
 border: .2rem solid var(--main-color)
 }
 
@@ -574,7 +574,27 @@ html{
    width: 100%;
    padding: 1rem 4%;
    background: var(--bg-color);
-   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+   box-shadow: 0 .5rem 1rem rgba(243, 239, 239, 0.2);
+   z-index: 1;
+   backdrop-filter: blur(10px);
+   transition: .25s ease;
+   transition-delay: .25s;
+   display: none;
+}
+.navbar.active {
+   left: 0;
+   transition-delay: 0s;
+}
+
+.navbar .active-nav {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: var(--main-color);
+border-top: .1rem solid ;
+z-index: -1;
 }
 
 .navbar a {
@@ -582,17 +602,20 @@ html{
    front-size 2rem;
    margin: 3rem 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
